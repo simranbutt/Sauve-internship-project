@@ -1,0 +1,103 @@
+.content-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+ background: linear-gradient(to top, hsl(25 100% 51%) 37px, #ffffff 37px);
+}
+
+.iconn{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.top-line{
+    display: flex;
+    align-items: flex-start;
+}
+.top-line hr{
+    flex:1;
+    margin-right: 10px;
+     margin-top: 0px;
+    margin-bottom: 0px;
+}
+.hr-container{
+    flex: 1;
+    
+}
+.hr-container .date{
+    font-size: 14px;
+    color: hsl(215.4 16.3% 46.9%);
+}
+
+.post-header-button{
+    font-size: 18px;
+    color: hsl(215.4 16.3% 46.9%);
+    font-weight: 400;
+}
+.next-to-icon{
+    display: flex;
+    margin-bottom: 0px;
+}
+.next-to-icon p{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: hsl(215.4 16.3% 46.9%);
+    font-weight: 400;
+}
+.text-container{
+    margin: 20px;
+}
+.endline{
+  background-color: hsl(25 100% 51%); 
+  height: 1px;  
+  border: none;
+  margin-top: 0px;
+}   
+.rate{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.end-icons{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 2px; 
+}
+.end-icons .icon{
+width: 30px;
+height: 30px;
+}
+.share-wrapper{
+    position: relative;
+}
+   .share-dropdown {
+  position: absolute;
+  padding-top: 5px;
+  background: white;
+  border-radius: 8px;
+      position: absolute;
+    right: -20px;
+    width: 190px;
+}
+.dd-item{
+    display: flex;
+    gap:5px;
+    align-items: center;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.dd-item svg{
+      min-width: 22px;
+    transform:translateY(2px);
+}

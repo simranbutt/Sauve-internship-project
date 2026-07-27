@@ -1,0 +1,39 @@
+.right-side-menu{
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ margin-top: 20px;
+}
+
+ .image-container {
+    position: relative;
+    overflow: hidden;
+     border-radius: 8px;
+}
+
+.image-container .images {
+    transition: transform 0.6s ease;
+}
+
+.image-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0) 30%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.image-container:hover::before {
+    opacity: 1;
+   
+}
+.image-container .images:hover{
+ transform: scale(1.05);
+}

@@ -1,0 +1,60 @@
+.join-creator-container-head{
+    padding: 32px;
+    background-color: white;
+    border-radius: 6px;
+}
+.join-creator-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   gap: 18px;
+}
+.join-creator-container-body{
+    padding: 24px 32px;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: white;
+    border-radius: 6px;
+}
+.join-creator-form{
+      padding: 24px 32px;
+      background-color: white;
+}
+#fullname, #phone,#email,#postal,.note-textarea{
+    padding: 8px 12px;
+    border: 1px solid hsl(214.3 31.8% 91.4%);
+    border-radius: 6px;
+    margin-top: 6px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+.form-label{
+    font-weight: 500;
+    font-size: 14px;
+}
+.note-textarea{
+    height: 80px;
+}
+.attach-cv-form-input{
+    display: flex;
+    align-items: center;
+      margin-top: 16px;
+      gap: 8px;
+}
+.submit-form{
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    margin-top: 16px;
+    border-radius: 6px;
+}
+.attach-img {
+    transition: opacity 0.2s ease;
+}
+
+.attach-img:hover {
+    opacity: 0.8;
+}

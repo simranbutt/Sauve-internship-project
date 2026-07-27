@@ -1,0 +1,95 @@
+.content-creator-container{
+    margin-top: 20px;
+}
+#search-creator{
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    width: 100%;
+}
+.search-creator-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 16px;
+}
+.find-creator-btn{
+    padding: 8px 20px;
+    background-color: hsl(25 100% 51%);
+    color: white;
+    border-radius: 10px;
+}
+.sort-creators{
+    cursor: pointer;
+}
+.find-creator-btn:hover{
+    background-color: #0F172AE6;
+}
+.creator-card{
+    margin-top: 16px; 
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.creator-card:hover{
+      transform: scale(1.02);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+.card-top {
+  position: relative;
+  height: 170px;
+}
+
+
+.posts-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 3;
+  background: white;
+  padding: 6px 14px;
+  border-radius: 99px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.creator-name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px 20px 12px 20px;
+}
+.card-bottom{
+    background-color: rgb(255, 233, 219);
+    padding: 20px 24px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+ .my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 25px; /* gutter size */
+  background-clip: padding-box;
+}
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 20px;
+}

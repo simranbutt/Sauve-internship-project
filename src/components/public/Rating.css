@@ -1,0 +1,45 @@
+.rating-container {
+  text-align: justify;
+   padding: 20px;
+   margin-left: 50px;
+}
+
+.stars {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.star {
+  font-size: 32px;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.star-active {
+  color: hsl(25 100% 51%);
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.rating-btn {
+  background-color: hsl(25 100% 51%);
+  color: white;
+  border: none;
+  padding: 5px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.nocolor-rating-btn{
+    background-color: hsl(25, 98%, 77%);
+  color: white;
+  border: none;
+  padding: 5px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.rate-line{
+    font-weight: 400;
+    font-size: larger;
+    margin-bottom: 8px;
+}

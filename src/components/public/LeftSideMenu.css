@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* common button styling */
+.btn-cta,
+.btn-rm,
+.btn-category {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: none;
+  text-align: left;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* top CTA buttons */
+.btn-join-member,
+.btn-join-creator{
+  background-color: #fca56a;
+  color: #000000;
+}
+
+.btn-creators {
+  background-color: #c4b5fd;
+  color: #000000;
+}
+
+.btn-rm {
+  background-color: #dec45d;
+}
+
+/* category buttons */
+.btn-category {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(157, 207, 157);
+  text-align: left;
+}
+
+.btn-category span {
+  flex: 1;
+}
+
+.btn-category-urdu span {
+  text-align: right;
+}
+
+/* icons */
+.btn-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.btn-category:hover,
+.btn-cta:hover,
+.btn-rm:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.boxx {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.boxin {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+
+.search {
+  width: 90%;
+  border: 2px solid rgb(157, 207, 157);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 15px;
+  color: #555555;
+  transition: all 0.1s ease-in-out;
+}
+
+.search-input:focus {
+  border: 2px solid rgb(157, 207, 157);
+  outline: 2px solid #050c1a;
+  outline-offset: 2px;
+}
+
+.search-input::placeholder {
+  color: #6a8ba2;
+  opacity: 1;
+}
+
+
+.btn-go {
+  background-color: rgb(157, 207, 157);
+  font-weight: 600;
+  border: none;
+}
+
+.urdu-text {
+  text-align: right;
+  direction: rtl;
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.search-urdu {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+.btn-category-urdu,
+.btn-category-urdu span {
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+.user-dropdown{
+  background-color: white;
+  border-radius: 16px;
+  margin-top: 14px;
+  padding: 10px 0;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.user-dropdown-item{
+  width: 100%;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0f172a;
+}
+
+.user-dropdown-item:hover{
+  background-color: #f8fafc;
+}

@@ -1,0 +1,24 @@
+.admin-sidebar-col {
+  flex: 0 0 260px;  /* sidebar width */
+}
+
+.admin-content-col{
+    flex:1;
+    overflow-y:auto;
+    background:hsl(240,5%,96%);
+}
+
+.admin-page-content{
+  padding: 24px;
+}
+
+.admin-layout-body{
+    display:flex;
+    flex:1;
+    overflow:hidden;
+}
+.admin-layout{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}

@@ -1,0 +1,147 @@
+.admin-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 0px 24px;
+}
+
+.admin-header-row {
+  min-height: 60px;
+}
+
+.admin-logo {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+}
+
+.admin-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ff6b00; /* orange */
+  margin-bottom: 0px;
+}
+
+.admin-badge {
+  background-color: #eef3fb;
+  color: #111827;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+
+.settings-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 36px;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 0px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111827;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.settings-btn:hover {
+  background-color: #f9fafb;
+}
+
+.settings-icon {
+  font-size: 15px;
+}
+
+.admin-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #6d4c41; /* brown */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.admin-profile-dropdown-wrapper{
+  position: relative;
+}
+
+.admin-profile-dropdown {
+  position: absolute;
+  top: 42px;
+  right: 0;
+
+  width: 240px;
+  background: #fff;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 10px 15px rgba(0,0,0,.08),
+    0 4px 6px rgba(0,0,0,.05);
+
+  z-index: 1000;
+}
+
+.dropdown-user {
+  padding: 8px;
+  border-bottom: 1px solid #ececec;
+}
+
+.dropdown-user h6 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.dropdown-user p {
+  margin: 3px 0 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.dropdown-action {
+  width: 100%;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 6px 8px;
+
+  background: white;
+  border: none;
+  border-bottom: 1px solid #ececec;
+
+  cursor: pointer;
+
+  font-size: 14px;
+
+  font-weight: 500;
+
+  transition: background .2s;
+}
+
+.dropdown-action:last-child {
+  border-bottom: none;
+}
+
+.dropdown-action:hover {
+  background: #f7f7f7;
+}
+
+/* .dropdown-action .settings-icon {
+  font-size: 20px;
+  color: #111827;
+  flex-shrink: 0;
+} */

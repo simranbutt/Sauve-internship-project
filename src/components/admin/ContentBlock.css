@@ -1,0 +1,40 @@
+ .content-block-head-btns-container{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid hsl(214.3 31.8% 91.4%);
+    border-radius: 6px;
+    position: sticky;
+    top: 15%;
+    background-color: #ffff;
+    z-index: 99;
+ }
+  .content-block-head-btn{
+        padding: 6px 12px;
+    border: 1px solid hsl(214.3 31.8% 91.4%);
+    border-radius: 6px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+  }
+   .content-block-head-btn:hover{
+    background-color: hsl(210, 15%, 95%);
+   }
+   .blocks-container{
+    margin-top:24px;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+
+.content-block{
+    background:white;
+    border:1px solid #d7dee9;
+    border-radius:8px;
+    padding:24px;
+    font-weight:600;
+}

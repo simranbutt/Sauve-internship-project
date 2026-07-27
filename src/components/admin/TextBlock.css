@@ -1,0 +1,38 @@
+.text-block {
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    gap: 10px;
+    margin-top: 16px;
+    padding: 16px;
+    border: 1px solid #d7dee9;
+    border-radius: 10px;
+    background: white;
+}
+.delete-block-btn{
+    color: red;
+    padding: 12px;
+    border-radius: 5px;
+}
+.delete-block-btn:hover{
+    background-color: hsl(210 40% 96.1%);
+}
+.block-handle{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin-top: 12px;
+}
+.block-editor{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d7dee9;
+     border-radius: 10px;
+}
+.block-delete{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px;
+    padding: 0px 10px;
+}

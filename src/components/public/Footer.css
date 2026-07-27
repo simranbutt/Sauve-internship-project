@@ -1,0 +1,53 @@
+.footer{
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.three{
+    
+    color: #FF822E;
+    margin-bottom: 15px;
+   
+}
+.para{
+    color: rgb(75 85 99);
+    font-size: 14px;
+}
+button{
+    text-align: left;
+    color: rgb(61, 61, 61);
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 600;
+}
+.alltags{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.copy{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin-top: 24px;
+   font-size: 14px;
+}
+.copy button{
+    position: absolute;
+    right: 20px;
+    border-radius: 50%;
+    border: 1.5px solid  #FF822E;
+    color: #FF822E;
+}
+.copy button:hover{
+    background-color: #FF822E;
+    color: white;
+}
+.all:hover{
+  color: #FF822E;
+}

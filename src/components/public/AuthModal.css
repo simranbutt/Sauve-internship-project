@@ -1,0 +1,102 @@
+.modal-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divider{
+    display: flex;
+}
+.social-login{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap:20px;
+}
+.google, .facebook{
+    flex:1;
+}
+.google-btn, .fb-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: solid rgb(226, 232, 240);
+    border-radius: 4px;
+    border-width: 1px;
+    width: 100%;
+    padding: 8px 16px;
+}
+.modal.show {
+    overflow: hidden;
+}
+
+.twitter-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ border: solid rgb(226, 232, 240);
+    border-radius: 4px;
+    border-width: 1px;
+     padding: 8px 16px;
+      box-shadow: 0 0 0 0.1px rgba(59, 130, 246, 0.5);
+}
+.twitter-btn:hover, .google-btn:hover, .fb-btn:hover{
+    background-color: hsl(210 40% 96.1%);
+}
+.divider{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:20px 0;
+}
+.divider hr{
+    flex:1;
+    margin:0;
+}
+.form-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:15px;
+}
+
+.signin-input{
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    width:100%;
+}
+.signin-btn{
+    width: 100%;
+    background-color: hsl(25 100% 51%);
+    border-radius: 4px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.signup-link{
+    margin:12px;
+    text-align: center;
+}
+.signup-a{
+    text-decoration: none;
+  color: hsl(25 100% 51%);
+  cursor: pointer;
+}
+.email, .password, .name{
+    padding: 8px 12px;
+    border-radius: 4px;
+     border: solid rgb(226, 232, 240);
+      border-width: 1px;
+      margin-top: 8px;
+      font-size: 14px;
+}
+.auth-error {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
