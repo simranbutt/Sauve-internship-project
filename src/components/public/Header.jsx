@@ -21,7 +21,7 @@ export function Header({ language, toggleLanguage }) {
             </div>
           </div>
           <div className="col-9">
-            <div className="Sujaglogo khuramshahzad">
+            <div className="Sujaglogo">
               <div className="logo-block">
                 <Link to="/" className="logo-link">
                   <img
