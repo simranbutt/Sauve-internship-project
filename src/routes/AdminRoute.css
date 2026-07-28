@@ -1,0 +1,77 @@
+.admin-loading,
+.access-denied {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    background: #f8fafc;
+}
+
+.loader {
+    width: 70px;
+    height: 70px;
+    border: 6px solid #e5e7eb;
+    border-top: 6px solid #dc2626;
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+    margin-bottom: 1.8rem;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.admin-loading h2,
+.access-denied h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: .75rem;
+}
+
+.admin-loading p,
+.access-denied p {
+    color: #6b7280;
+    font-size: 1rem;
+    max-width: 420px;
+    line-height: 1.6;
+}
+
+.access-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #fee2e2;
+    color: #dc2626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.access-denied button {
+    margin-top: 2rem;
+    border: none;
+    background: #dc2626;
+    color: white;
+    padding: .9rem 1.5rem;
+    border-radius: 10px;
+    font-size: .95rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.access-denied button:hover {
+    background: #b91c1c;
+    transform: translateY(-2px);
+}
