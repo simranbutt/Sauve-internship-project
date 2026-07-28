@@ -201,7 +201,7 @@ export function Home() {
                         <div className='end-conatiner'>
                             <div className='rate'>
                                 <Rating />
-                                <p style={{ fontSize: '14px', color: 'hsl(215.4 16.3% 46.9%)' }}>Be the first to rate</p>
+                                <p style={{ fontSize: '14px', color: 'hsl(215.4 16.3% 45.9%)' }}>Be the first to rate</p>
                             </div>
                             <div className='end-icons'>
                                 <div className='share-wrapper' ref={dropdownRef}>
