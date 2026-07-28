@@ -12,34 +12,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { IoLinkOutline } from "react-icons/io5";
 import AuthModal from '../../components/public/AuthModal';
 
-import supabase from "../../config/supabaseClient";
-const sections = [
-    {
-        id: 1, title: "Untouchable Treatment", content: `A connecting road, MM Road, stretches from Mianwali towards Muzaffargarh, ten km from Kundian in the west. The city is located four km away from here, and towards the east, it marks the beginning of the old forest area known as Kundian Plantation. This junction on the road is referred to as Kundian Mor.
-Out of the 20,000 acres of land owned by the Forest Department here, the Punjab government had decided to construct a park on 50 acres. According to PC-1, the estimated cost for the park’s construction was approximately 235.5 million rupees. However, only 176.4 million rupees were allocated for it.
-In the park, grass segments will be laid out on ten acres of land. Twenty acres will be dedicated to trees and plants, while one acre is allocated for planting roses and jasmine flowers. Furthermore, establishing a botanical garden on ten acres is also part of this project, which will benefit the general public and botanical students.` },
-    {
-        id: 2, title: "Workplace Segregation", content: `A connecting road, MM Road, stretches from Mianwali towards Muzaffargarh, ten km from Kundian in the west. The city is located four km away from here, and towards the east, it marks the beginning of the old forest area known as Kundian Plantation. This junction on the road is referred to as Kundian Mor.
-
-Out of the 20,000 acres of land owned by the Forest Department here, the Punjab government had decided to construct a park on 50 acres. According to PC-1, the estimated cost for the park’s construction was approximately 235.5 million rupees. However, only 176.4 million rupees were allocated for it.
-
-In the park, grass segments will be laid out on ten acres of land. Twenty acres will be dedicated to trees and plants, while one acre is allocated for planting roses and jasmine flowers. Furthermore, establishing a botanical garden on ten acres is also part of this project, which will benefit the general public and botanical students.` },
-    {
-        id: 3, title: "Third Class Citizens", content: `A connecting road, MM Road, stretches from Mianwali towards Muzaffargarh, ten km from Kundian in the west. The city is located four km away from here, and towards the east, it marks the beginning of the old forest area known as Kundian Plantation. This junction on the road is referred to as Kundian Mor.
-
-Out of the 20,000 acres of land owned by the Forest Department here, the Punjab government had decided to construct a park on 50 acres. According to PC-1, the estimated cost for the park’s construction was approximately 235.5 million rupees. However, only 176.4 million rupees were allocated for it.
-
-In the park, grass segments will be laid out on ten acres of land. Twenty acres will be dedicated to trees and plants, while one acre is allocated for planting roses and jasmine flowers. Furthermore, establishing a botanical garden on ten acres is also part of this project, which will benefit the general public and botanical students.` }
-];
-const text = `Essa Khan, 45, resides in the city of Kundian. He has lived in the city for the past 20 years, about four kilometres (km) from the Kundian Chowk. Essa and his family make a living by crushing sugarcane, extracting juice, and processing sugarcane jaggery (gur) at Kundian Mor. On average, they earn around seven hundred rupees daily through this work, which sustains their household expenses.
-
-His family consists of six individuals, including four children. His location has a planned construction project for a park nearby. A former prime minister laid the foundation stone for this park in 2021, bringing Essa great joy. He was happy due to the anticipation of potential progress in his business as the park visitors would increase the demand for his products, including selling sugarcane jaggery near the park.
-
-However, the park’s construction has not been completed yet, leading to dashed hopes for Essa Khan regarding business growth.
-
-Kundian, a densely populated area with a population of 1.5 million, is the largest urban locality in the district after the city of Mianwali. However, despite its size, there are no recreational facilities available here`;
-
-//---------------------------------------Share button drop down function-------------------------------------------
+import supabase from "../../config/supabaseClient";//---------------------------------------Share button drop down function-------------------------------------------
 
 export function ShareDropDown() {
 
